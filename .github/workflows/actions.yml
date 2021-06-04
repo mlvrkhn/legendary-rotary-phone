@@ -20,12 +20,25 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout
+      uses: actions/checkout@v2
+      with: 
+        persist-credentials: false
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+
     - run: npm install
     - run: npm run build
     - run: npm test
     - run: npm run deploy
+    
+    - name: Deploy
+    uses: JamesIves/github-pages-deploy-action@3.7.1
+    with:
+      GITHUB_TOKEN: ${{ secrets.TOKEN }}
+      BRANCH: gh-pages
+      FOLDER: build
+      CLEAN: true
