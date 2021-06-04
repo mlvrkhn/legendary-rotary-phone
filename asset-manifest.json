@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/legendary-rotary-phone/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/legendary-rotary-phone/static/js/main.78c25d29.chunk.js",
+    "main.js.map": "/legendary-rotary-phone/static/js/main.78c25d29.chunk.js.map",
+    "runtime-main.js": "/legendary-rotary-phone/static/js/runtime-main.f9687419.js",
+    "runtime-main.js.map": "/legendary-rotary-phone/static/js/runtime-main.f9687419.js.map",
+    "static/js/2.dbea3b6e.chunk.js": "/legendary-rotary-phone/static/js/2.dbea3b6e.chunk.js",
+    "static/js/2.dbea3b6e.chunk.js.map": "/legendary-rotary-phone/static/js/2.dbea3b6e.chunk.js.map",
+    "static/js/3.8f4aba9b.chunk.js": "/legendary-rotary-phone/static/js/3.8f4aba9b.chunk.js",
+    "static/js/3.8f4aba9b.chunk.js.map": "/legendary-rotary-phone/static/js/3.8f4aba9b.chunk.js.map",
+    "index.html": "/legendary-rotary-phone/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/legendary-rotary-phone/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.dbea3b6e.chunk.js.LICENSE.txt": "/legendary-rotary-phone/static/js/2.dbea3b6e.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/legendary-rotary-phone/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9687419.js",
+    "static/js/2.dbea3b6e.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.78c25d29.chunk.js"
+  ]
+}
